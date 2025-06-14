@@ -205,3 +205,124 @@ input{
     background-color: #0d0541;
     padding: 50px 0;
 }
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.link a{
+    color: #c8c8c8;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #3ec4ff;
+}
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+        position: relative;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3ec4ff;
+        display: none;
+    }
+    .menu .navbar ul{
+        flex-direction: column;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .menu .navbar ul li a:hover{
+        color: #ffff;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header-content{
+        padding: 20px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-txt{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    .brands{
+        padding: 30px;
+        margin: 0 30px;
+        flex-direction: column;
+    }
+    .brands-1{
+        text-align: center;
+    }
+    .brands-1 p{
+        margin-bottom: 15px;
+    }
+    .brands-1 img{
+        margin-bottom: 10px;
+    }
+    .services{
+        padding: 50px 30px 30px 30px;
+    }
+    .services-content{
+        flex-direction: column;
+    }
+    .services-1{
+        margin-bottom: 30px;
+    }
+    .information{
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .information-txt{
+        padding: 0 30px 0 0;
+    }
+    .information-img{
+        order: 2;
+    }
+    .about{
+        padding: 30px;
+    }
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-txt{
+        padding: 0 0 30px 0;
+    }
+    .contact{
+        padding: 50px 80px;
+    }
+    form{
+        flex-direction: column;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
