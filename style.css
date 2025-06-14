@@ -183,3 +183,25 @@ h2{
 .about-img{
     flex-basis: 50%;
 }
+.contact{
+    padding: 120px 0;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input{
+    width: 300px;
+    padding: 17px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(33, 40, 105, 0.2);
+    margin-right: 20px;
+}
+.footer{
+    background-color: #0d0541;
+    padding: 50px 0;
+}
